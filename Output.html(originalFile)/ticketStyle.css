@@ -1,0 +1,86 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+/*        display: flex;
+        flex-direction: column;
+        justify-content: flex-end*/; /* This aligns the content to the bottom */
+    }
+
+.content {
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        /* additional styling */
+    }
+
+table#border{
+        font-size: 10pt; 
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+
+td{
+        font-family: tahoma;
+        font-size: 10pt;
+}
+
+table.main{
+        border: 1px solid red;
+        border-spacing: 0;
+        width: 700;
+        border: 0;
+}
+
+tr.title,td.title{
+        background-color: #000000;
+}
+
+td.titleBar{
+        background-color: #000000;
+        height: 30;
+        vertical-align: middle;
+        font-weight: bold;
+        color: rgb(255, 255, 255); 
+        text-indent: 5px; 
+}
+
+td.title{
+        vertical-align: middle; 
+        font-weight: bold; 
+        color: rgb(255, 255, 255); 
+        text-indent: 6px; 
+}
+
+td.fields{
+        text-align: right;
+        font-weight: bold; 
+}
+
+p{
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+
+div.description{
+        font-weight: bold
+}
+
+td.bottom{
+        width: 264;
+        vertical-align: top;
+        width: 2.75in;
+        padding: .05pt .75pt .75pt .75pt;
+}
+
+td.qr,span.qr,p.qr{
+        text-align: right;
+        font-size: 10.0pt;
+        font-family: Calibri, sans-serif;
+}
+
+.schoolName{
+        vertical-align: top;
+        padding: .05pt .75pt .50pt 8.5pt;
+        font-size: 50px;
+}
